@@ -1,4 +1,7 @@
 import random 
+import json 
+with open ("data.json", "r") as f:
+    data= json.load (f)  
 flashcards= {
    "How many people use an apple product in the world?" : " 2.2 billion " ,
 
@@ -23,3 +26,9 @@ for question in my_list:
 print("reveiw these questions") 
 for QA in questions_to_reveiw: 
     print (QA) 
+
+data["questions_to_reveiw"] += questions_to_reveiw
+
+import json
+with open ("data.json", "w") as f:
+    json.dump (data,f, indent=2) 
