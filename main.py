@@ -12,6 +12,37 @@ flashcards= {
  " How many animal rescues are there in the world? ": " 4,064 rescues " ,
 
  "how many people are coffee drinkers in the world? " : " 1 billion people",
+
+ "What is the biggest national park in the US?" : "Wrangell-st. Elias national park" , 
+
+ "What skincare products are used the most in a girls GRWM?" : " Exfoliant, face masks" , 
+
+ "What makeup brand skyrocketed this year in production/popularity?" : " Rare beauty by selena gomez" , 
+
+ "What is the most used way of transit besides driving a car in the US?" : "The bus" ,
+
+ " What popular food is the most consumed in the US?": "French fries", 
+
+ " What are some of the most common bad habits people have?" : " Not enough sleep, unhealthy eating, poor exercise habits, procrastination" , 
+
+ " What is the most picked degree in a college career?" : " Business" , 
+
+ " What season do people like the most?" : " Fall" , 
+
+ " What pet is more popular, dogs or cats? ": " Dogs " , 
+
+ " How many people don’t own a pet?" : " 43%" , 
+
+ " How many hours do students spend in school per year?" : " 1,231 hours" , 
+
+ " What is the biggest issue in public health today?" : " Heart disease and stroke" , 
+
+ " What is the most popular nail/ hair color that the majority of women choose?" : " Nails: baby pink or blush, Hair: black" , 
+
+ " How many people dropout of high school?" : " 1.89 million" , 
+
+ " How many people don’t finish college?" : " 33%" , 
+
 }
 questions_to_reveiw= [] 
 questions= list (flashcards.keys()) 
