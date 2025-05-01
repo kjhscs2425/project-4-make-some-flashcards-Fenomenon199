@@ -45,21 +45,61 @@ flashcards= {
 
 }
 questions_to_reveiw= [] 
+correct_questions = []
 questions= list (flashcards.keys()) 
 my_list= random.sample(questions, k=5 )
 for question in my_list: 
     response = input (question)
     if response == flashcards [question]: 
         print ("✅") 
+        # add question to correct_questions
+        correct_questions.append (f"{question}\n{flashcards [question]}")
     else: 
         print (" ❌") 
         questions_to_reveiw.append (f"{question}\n{flashcards [question]}") 
-print("reveiw these questions") 
-for QA in questions_to_reveiw: 
-    print (QA) 
 
 data["questions_to_reveiw"] += questions_to_reveiw
+data["correct_questions"] += correct_questions
 
 import json
 with open ("data.json", "w") as f:
     json.dump (data,f, indent=2) 
+
+# read from data.json
+import json
+with open ("data.json", "r") as f:
+    d=json.load (f)
+# print summary statistics from previous runs of the program
+
+# print("reveiw these questions") 
+# for QA in questions_to_reveiw: 
+#     print (QA) 
+
+# TODO:
+# for each question,
+for question in questions:
+    # if correct this time:
+    question_and_answer = f"{question}\n{flashcards [question]}"
+    if  question_and_answer in correct_questions: 
+        # count how many times you answered this correctly in the past
+        # data["correct_questions"] # list of all past correct questions
+        # question_and_answer # current question and answer
+        correct_counter= data["correct_questions"].count ( question_and_answer) 
+        # print you've answered "How many people don't finish college? " correctly 5 times. Good job!
+        print (f"""
+you've answered 
+{question_and_answer}
+correctly {correct_counter} times 
+good job!
+""") 
+    else:
+        # count how many times you answered this incorrectly in the past
+        incorrect_counter= data["questions_to_reveiw"].count ( question_and_answer) 
+        #question_and _answer # current question and answer 
+        # print you've answered "how many people don't own a pet? " incorrectly 10 times. Make sure to study this further
+        print (f"""
+you've answered 
+{question_and_answer}
+incorrectly {incorrect_counter} times 
+make sure to study this further
+""") 

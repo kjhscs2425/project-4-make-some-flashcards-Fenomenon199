@@ -7,6 +7,33 @@
     "How many people use an apple product in the world?\n 2.2 billion ",
     "How many people use an apple product in the world?\n 2.2 billion ",
     " what are the lyrics to before he cheats by carrie underwood?\nAnd i dug my key into the side of his pretty little suped up four wheel drive",
-    "how many people are coffee drinkers in the world? \n 1 billion people"
+    "how many people are coffee drinkers in the world? \n 1 billion people",
+    " How many stars are there in the galaxy?\n 100 to 400 billion stars ",
+    "How many people use an apple product in the world?\n 2.2 billion ",
+    " How many people don\u2019t own a pet?\n 43%",
+    " How many people don\u2019t finish college?\n 33%",
+    " What is the biggest issue in public health today?\n Heart disease and stroke",
+    " What popular food is the most consumed in the US?\nFrench fries",
+    " How many stars are there in the galaxy?\n 100 to 400 billion stars ",
+    "What is the biggest national park in the US?\nWrangell-st. Elias national park",
+    " How many animal rescues are there in the world? \n 4,064 rescues ",
+    " What season do people like the most?\n Fall",
+    "What is the most used way of transit besides driving a car in the US?\nThe bus",
+    "What makeup brand skyrocketed this year in production/popularity?\n Rare beauty by selena gomez",
+    " How many people dropout of high school?\n 1.89 million",
+    " What season do people like the most?\n Fall",
+    " How many animal rescues are there in the world? \n 4,064 rescues ",
+    " What are some of the most common bad habits people have?\n Not enough sleep, unhealthy eating, poor exercise habits, procrastination",
+    "how many people are coffee drinkers in the world? \n 1 billion people",
+    " What is the biggest issue in public health today?\n Heart disease and stroke",
+    "What skincare products are used the most in a girls GRWM?\n Exfoliant, face masks"
+  ],
+  "correct_questions": [
+    "What is the biggest national park in the US?/nWrangell-st. Elias national park",
+    "What skincare products are used the most in a girls GRWM?\n Exfoliant, face masks",
+    " How many people dropout of high school?\n 1.89 million",
+    " How many stars are there in the galaxy?\n 100 to 400 billion stars ",
+    "What is the biggest national park in the US?\nWrangell-st. Elias national park",
+    "How many people use an apple product in the world?\n 2.2 billion "
   ]
 }
